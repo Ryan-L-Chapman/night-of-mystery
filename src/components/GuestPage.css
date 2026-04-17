@@ -34,9 +34,26 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .guest-spine { display: none; }
+
+  /* Turn the vertical spine into a horizontal ornamental divider */
+  .guest-spine {
+    width: 100%;
+    height: auto;
+    background: none;
+    opacity: 1;
+    align-self: auto;
+    text-align: center;
+    color: var(--color-gold);
+    letter-spacing: 0.25em;
+    font-size: 0.75rem;
+    margin: 1.25rem 0;
+  }
+  .guest-spine::before {
+    content: '\2500\2500\2500\2500\2500\2500\2500\2500 \2736 \2500\2500\2500\2500\2500\2500\2500\2500';
+  }
+
   .guest-cell + .guest-cell {
-    margin-top: 1.5rem;
+    margin-top: 0;
   }
 }
 
