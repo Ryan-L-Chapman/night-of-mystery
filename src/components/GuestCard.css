@@ -85,6 +85,19 @@
   color: var(--color-ink);
 }
 
+@media print {
+  .card-player-name { display: none; }
+
+  .card-info::after {
+    content: 'Favorite Drink:';
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--color-ink);
+    margin-top: 0.75rem;
+  }
+}
+
 @media (max-width: 600px) {
   .card {
     flex-direction: column;
