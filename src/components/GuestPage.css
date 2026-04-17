@@ -1,0 +1,40 @@
+.guest-page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* One row = two guests side by side */
+.guest-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0 2.5rem;
+  align-items: start;
+}
+
+/* Vertical book-spine between columns */
+.guest-spine {
+  width: 1px;
+  align-self: stretch;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--color-gold) 6%,
+    var(--color-gold) 94%,
+    transparent 100%
+  );
+  opacity: 0.45;
+}
+
+.guest-cell {
+  min-width: 0;
+}
+
+/* Horizontal divider between rows */
+.guest-row-divider {
+  text-align: center;
+  color: var(--color-gold);
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin: 1.25rem 0;
+}

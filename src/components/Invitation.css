@@ -1,0 +1,81 @@
+.invitation {
+  text-align: center;
+}
+
+.invitation-seal {
+  font-size: 2.8rem;
+  color: var(--color-burgundy);
+  margin-bottom: 0.4rem;
+  line-height: 1;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
+}
+
+.invitation-address {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--color-faint);
+  letter-spacing: 0.05em;
+}
+
+.invitation-ornament {
+  color: var(--color-gold);
+  letter-spacing: 0.25em;
+  margin: 0.75rem 0;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.invitation-title {
+  font-family: var(--font-heading);
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--color-burgundy);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.2rem;
+  line-height: 1.15;
+}
+
+.invitation-subtitle {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--color-ink);
+  letter-spacing: 0.02em;
+}
+
+.invitation-body {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.8;
+  max-width: 480px;
+  margin: 0.7rem auto;
+  text-align: left;
+  color: var(--color-ink);
+}
+
+.invitation-note {
+  border-left: 2px solid var(--color-gold);
+  padding-left: 1rem;
+  color: var(--color-burgundy);
+  opacity: 0.85;
+}
+
+.invitation-host {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--color-burgundy);
+  margin-top: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+.invitation-footer {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--color-faint);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+}

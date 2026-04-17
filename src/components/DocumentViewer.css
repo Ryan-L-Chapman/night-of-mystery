@@ -1,0 +1,117 @@
+.viewer-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 1rem 1.5rem;
+  gap: 1.25rem;
+}
+
+.viewer-heading {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-parchment-dark);
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.viewer-stage {
+  width: 100%;
+  max-width: 680px;
+}
+
+/* The parchment document surface */
+.viewer-document {
+  position: relative;
+  background-color: var(--color-parchment);
+  background-image: var(--texture-noise);
+  background-repeat: repeat;
+  color: var(--color-ink);
+  border: 2px solid var(--color-gold);
+  box-shadow: var(--shadow-deep), inset 0 0 70px rgba(100, 80, 20, 0.08);
+  padding: 2.75rem 3rem 2.5rem;
+  max-height: 78vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold) var(--color-parchment-dark);
+}
+
+.viewer-document::-webkit-scrollbar {
+  width: 6px;
+}
+.viewer-document::-webkit-scrollbar-track {
+  background: var(--color-parchment-dark);
+}
+.viewer-document::-webkit-scrollbar-thumb {
+  background-color: var(--color-gold);
+  border-radius: 3px;
+}
+
+/* Art Deco corner diamonds */
+.viewer-corners {
+  position: absolute;
+  font-size: 0.6rem;
+  color: var(--color-gold);
+  opacity: 0.7;
+  line-height: 1;
+}
+.viewer-corners--tl { top: 0.45rem;  left: 0.6rem; }
+.viewer-corners--tr { top: 0.45rem;  right: 0.6rem; }
+.viewer-corners--bl { bottom: 0.45rem; left: 0.6rem; }
+.viewer-corners--br { bottom: 0.45rem; right: 0.6rem; }
+
+/* Inner content area — extra top padding for card player name */
+.viewer-content {
+  position: relative;
+  padding-top: 1.2rem;
+}
+
+/* Navigation controls */
+.viewer-controls {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.viewer-arrow {
+  background: transparent;
+  border: 1px solid var(--color-gold);
+  color: var(--color-gold);
+  font-size: 1rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewer-arrow:hover:not(:disabled) {
+  background: var(--color-gold);
+  color: var(--color-bg);
+}
+
+.viewer-arrow:disabled {
+  opacity: 0.2;
+  cursor: default;
+}
+
+.viewer-counter {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--color-parchment-dark);
+  letter-spacing: 0.18em;
+  min-width: 4.5rem;
+  text-align: center;
+}
+
+/* Responsive: tighter padding on small screens */
+@media (max-width: 520px) {
+  .viewer-document {
+    padding: 2rem 1.5rem 2rem;
+  }
+}

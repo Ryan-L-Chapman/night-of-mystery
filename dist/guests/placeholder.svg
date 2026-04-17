@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200" width="160" height="200">
+  <rect width="160" height="200" fill="#c9b88a"/>
+  <!-- aged paper grain -->
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <rect width="160" height="200" filter="url(#grain)" opacity="0.12"/>
+  <!-- silhouette head -->
+  <circle cx="80" cy="68" r="30" fill="#7a6040" opacity="0.55"/>
+  <!-- silhouette body -->
+  <ellipse cx="80" cy="160" rx="42" ry="52" fill="#7a6040" opacity="0.55"/>
+  <!-- ornamental border -->
+  <rect x="4" y="4" width="152" height="192" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.6"/>
+  <rect x="8" y="8" width="144" height="184" fill="none" stroke="#c9a84c" stroke-width="0.5" opacity="0.4"/>
+  <!-- label -->
+  <text x="80" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#7a6040" opacity="0.7" letter-spacing="2">PORTRAIT</text>
+</svg>

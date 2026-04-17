@@ -1,0 +1,94 @@
+/* ============================================================
+   DESIGN TOKENS — 1930s Art Deco / Noir palette
+   ============================================================ */
+:root {
+  --color-bg:             #111010;
+  --color-parchment:      #e8d9b5;
+  --color-parchment-dark: #c9b88a;
+  --color-gold:           #c9a84c;
+  --color-burgundy:       #7a1f2e;
+  --color-ink:            #1a1008;
+  --color-faint:          #8a7a60;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body:    'Special Elite', 'Courier New', monospace;
+
+  --shadow-deep:  0 12px 48px rgba(0, 0, 0, 0.85);
+  --shadow-card:  4px 4px 0 var(--color-burgundy);
+
+  /* Aged paper texture — inline SVG noise grain */
+  --texture-noise: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   GLOBAL RESET
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-body);
+  color: var(--color-parchment);
+  min-height: 100vh;
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+/* ============================================================
+   PAGE LAYOUT
+   ============================================================ */
+.app-layout {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.app-heading {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-parchment-dark);
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+/* Parchment document surface */
+.app-document {
+  position: relative;
+  width: 100%;
+  background-color: var(--color-parchment);
+  background-image: var(--texture-noise);
+  background-repeat: repeat;
+  color: var(--color-ink);
+  border: 2px solid var(--color-gold);
+  box-shadow: var(--shadow-deep), inset 0 0 70px rgba(100, 80, 20, 0.08);
+  padding: 2.75rem 3rem 2.5rem;
+}
+
+/* Art Deco corner diamonds */
+.app-corners {
+  position: absolute;
+  font-size: 0.6rem;
+  color: var(--color-gold);
+  opacity: 0.7;
+  line-height: 1;
+}
+.app-corners--tl { top: 0.45rem;  left: 0.6rem; }
+.app-corners--tr { top: 0.45rem;  right: 0.6rem; }
+.app-corners--bl { bottom: 0.45rem; left: 0.6rem; }
+.app-corners--br { bottom: 0.45rem; right: 0.6rem; }
+
+@media (max-width: 600px) {
+  .app-document { padding: 2rem 1.5rem; }
+}

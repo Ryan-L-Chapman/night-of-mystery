@@ -1,0 +1,86 @@
+/* Horizontal guest row: photo left, info right */
+.card {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: opacity 0.18s;
+}
+.card:hover { opacity: 0.75; }
+.card:focus { outline: 1px solid var(--color-gold); outline-offset: 4px; }
+
+/* Photo frame */
+.card-photo-frame {
+  flex-shrink: 0;
+  width: 95px;
+  height: 120px;
+  border: 2px solid var(--color-gold);
+  box-shadow: 3px 3px 0 var(--color-burgundy);
+  overflow: hidden;
+}
+
+.card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(0.45) contrast(1.08) brightness(0.92);
+}
+
+/* Right column */
+.card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Header row: identity left, player name right */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.card-identity {
+  min-width: 0;
+}
+
+.card-character-name {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-burgundy);
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+}
+
+.card-character-title {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.8rem;
+  color: var(--color-ink);
+  margin-top: 0.15rem;
+  opacity: 0.8;
+}
+
+/* Player name — faint, top-right */
+.card-player-name {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  color: var(--color-faint);
+  opacity: 0.5;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* Description */
+.card-description {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}

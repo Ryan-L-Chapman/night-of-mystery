@@ -1,0 +1,128 @@
+.nc-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.nc-box {
+  position: relative;
+  background-color: var(--color-parchment);
+  background-image: var(--texture-noise);
+  background-repeat: repeat;
+  color: var(--color-ink);
+  width: 100%;
+  max-width: 400px;
+  padding: 2.25rem 2.5rem 2rem;
+  border: 2px solid var(--color-gold);
+  box-shadow: var(--shadow-deep);
+  text-align: center;
+}
+
+.nc-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.9rem;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--color-burgundy);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.nc-close:hover { color: var(--color-gold); }
+
+.nc-ornament {
+  color: var(--color-gold);
+  letter-spacing: 0.3em;
+  font-size: 0.78rem;
+  opacity: 0.85;
+  margin: 0.6rem 0;
+}
+
+.nc-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-burgundy);
+  letter-spacing: 0.06em;
+}
+
+.nc-prompt {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-ink);
+  line-height: 1.7;
+  margin-top: 0.75rem;
+}
+
+.nc-character-name {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-burgundy);
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.nc-instruction {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--color-faint);
+  margin-top: 0.4rem;
+  letter-spacing: 0.05em;
+}
+
+.nc-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.1rem;
+}
+
+.nc-input {
+  width: 100%;
+  padding: 0.55rem 0.85rem;
+  background: var(--color-parchment-dark);
+  border: 1px solid var(--color-gold);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: 0.08em;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.nc-input:focus { border-color: var(--color-burgundy); }
+.nc-input--error { border-color: var(--color-burgundy); }
+
+.nc-error {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--color-burgundy);
+  letter-spacing: 0.05em;
+}
+
+.nc-submit {
+  padding: 0.55rem 2rem;
+  background: var(--color-burgundy);
+  color: var(--color-parchment);
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-gold);
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  margin-top: 0.25rem;
+}
+.nc-submit:hover {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}

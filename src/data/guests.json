@@ -1,0 +1,698 @@
+[
+  {
+    "id": "marvin_graves",
+    "playerName": "Ryan Chapman",
+    "characterName": "Marvin Graves",
+    "characterTitle": "The Advisor",
+    "photo": "/guests/ryan.png",
+    "description": "Marvin graduated from Big University studying economics. He's had a boring life in finance, out of the limelight. That is, until recently. He's been going out with Juniper Fairfield and has become close with Cornelius. Replacing his old advisor, it's clear that Marvin has changed how Cornelius thinks about his wealth.",
+    "background": "",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Quinn Gladwell is set to lose Harold's case",
+      "Juniper is cheating on Marvin with a police officer",
+      "Victoria Locke has been stalling the peace talks to hold onto power"
+    ],
+    "goals": [
+      ""
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "You are currently advising him financially, and skimming some of his money off the top."
+      },
+      {
+        "guestId": "juniper_fairfield",
+        "description": "Your girlfriend of several months. The relationship has opened doors into Cornelius's social circle that would otherwise have been closed to you."
+      },
+      {
+        "guestId": "elmer_graves",
+        "description": "Your cousin, whom you introduced to the Big City social life. Even having a family connection, you can't truly read him sometimes."
+      }
+    ],
+    "props": [],
+    "password": "advisor"
+  },
+  {
+    "id": "cornelius_duke",
+    "playerName": "Mathias Severn",
+    "characterName": "Cornelius Duke",
+    "characterTitle": "The Investor",
+    "photo": "/guests/mathias.png",
+    "description": "Coming from old money, Cornelius has his hands — or money — in everything. The arts, cutting edge research, and lucrative businesses. Previous army man, alum of Big University, world traveler, purveyor of the arts, and host of the most elite dinner parties — Cornelius Duke has quite the social circle. Most of the people on this guest list are currently getting financing from Cornelius — for now.",
+    "background": "You’ve inherited a fortune from your father, making you the richest man in Big City. With this money you’ve grown your social standing - with philanthropic endeavors and business investments. You enjoy throwing a good party - always sure to invite those that have good things to say about you, since you are funding them of course. You graduated from Big University with a Degree you don't use, then did a short stint in the military. Your last financial Advisor, Oswald Conney, had a heart attack. Since then, you’ve brought on Marvin Graves, who you met at Big University. He’s convinced you to withdraw your open hand - as he predicts a recession because of the war in North Africa.",
+    "gossip": [
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Marvin only got with Juniper to be introduced to you",
+      "Artemis Longfellow's research has no real world applications",
+      "Ramsey Strider didn't actually visit the places in his last book, that's why it failed",
+      "Quinn Gladwell is at this dinner to identify a witness against his client in an upcoming case"
+    ],
+    "goals": [
+      "Ensure all your guests have a fine evening.",
+      "Find out if the war in Africa is likely to continue. Talking to Brad Staff and Victoria would help.",
+      "Ask Zach Biggs about his new project and whether it has potential to be a hit.",
+      "Find out what Harold's next business move is - and if it messes up with your manufacturing investments.",
+      "Pass any suspicious drinks to Marvin Graves"
+    ],
+    "relationships": [
+      {
+        "guestId": "marvin_graves",
+        "description": "He became your advisor after being introduced by Juniper Fairfield. Once trusted, you've just found out he's been skimming off the top. He has to go."
+      },
+      {
+        "guestId": "juniper_fairfield",
+        "description": "A family friend, you've seen Juniper around at every party you've been to. She's the one that introduced you to Marvin graves."
+      },
+      {
+        "guestId": "terrance_kelley",
+        "description": "The Duke family physician for over three decades, he has known you longer than anyone else here. Theres been nasty rumors circulating about him, unsubtantiated in your mind."
+      },
+      {
+        "guestId": "artemis_longfellow",
+        "description": "A brilliant academic whose cognitive research you have funded through a personal trust. You believe in him, though results have been slow to materialize."
+      },
+      {
+        "guestId": "draven_norton",
+        "description": "A scientist you have bankrolled through Norton Solutions. He's engineered a secret poison immunity serum, which you've tried - though the public has no idea."
+      },
+      {
+        "guestId": "armon_robinson",
+        "description": "You currently are the sole investor in his one michilan star restaurant, Armon's. He's passionate, but about the wrong things. He should be going for bigger profits, not another useless star."
+      },
+      {
+        "guestId": "ramsey_strider",
+        "description": "Introduced through Armon, you backed Ramsey to travel the world and write about it. His first couple cooks were fantastic successes. But since then he's lost sight of the end goal, it's clear you shouldn't be funding him more."
+      }
+    ],
+    "props": [],
+    "password": "empire"
+  },
+  {
+    "id": "juniper_fairfield",
+    "playerName": "Joy Hansen",
+    "characterName": "Juniper Fairfield",
+    "characterTitle": "The Socialite",
+    "photo": "/guests/joy.png",
+    "description": "You aren't too many social connections away from Juniper at any time, that's for sure. An enthusiast to the arts through and through, it's not quite clear how she's able to afford her lavish and social lifestyle. She's been dating Marvin Graves for some time now, but she isn't the type to rely on a man. You're sure to see her at the next party as well.",
+    "background": "Coming from a decent household yourself, you’re at the center of Big City’s social climate. At first you relied upon money from your family, but soon realized that would run out. A woman has to make a living somehow - so you make it through blackmail. You can't be dependent or rely on anyone, that would be against your ethos. You’ve been black mailing a few politicians in Big City. You only got with your current fling, Marvin Graves, to find his dirty secrets. Which you have - he’s been skimming money off the top of Cornelius Duke’s investments. You’ve almost been caught with your illegitimate activities, but you have an intimate connection with Detective Jacques down at the precinct, so you can always get away with it.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Quinn Gladwell is set to lose Harold's case",
+      "Raymond's movie is delayed because of an accident that happened on set",
+      "Harold Young is already planning a hostile move on one of Cornelius's businesses the moment funding shifts"
+    ],
+    "goals": [
+      "Ensure no one asks too pointed a question about your finances tonight",
+      "Give Marvin your Blackmail letter without him or anyone noticing.",
+      "See what Frank Wallace's big story is about, you don't want him to reveal your leverage.",
+      "Talk to Olivia West about her newest project.",
+      "Find new dirt you can use. Look into: Brad Staff, Victoria Locke,Harold Young."
+    ],
+    "relationships": [
+      {
+        "guestId": "marvin_graves",
+        "description": "Your boyfriend of several months. You introduced him to Cornelius, who made Marvin his advisor. Now that you've found out his dirty secret, its time to cut him lose."
+      },
+      {
+        "guestId": "cornelius_duke",
+        "description": "An old family friend, he's a powerful man who has become a fixture in your social world. You have cultivated his good opinion carefully and consider him a useful friend. Even for you, he's too powerful to try to find dirt on."
+      },
+      {
+        "guestId": "olivia_west",
+        "description": "A fellow arts devotee. You have followed her career for years and have quietly funded one of her earlier, smaller projects. You are curious what her next film is actually about."
+      },
+      {
+        "guestId": "elmer_graves",
+        "description": "Your boyfriend's cousin. You know he's eccentric and Marvin is doing his best to mentor him - but it isnt enough. He hasn't been in the looneybin, but maybe he should be."
+      }
+    ],
+    "props": [
+      "A blackmail letter - threatening Marvin Graves with exposure unless he pays you."
+    ],
+    "password": "magnolia"
+  },
+  {
+    "id": "ramsey_strider",
+    "playerName": "Thai Villaluna",
+    "characterName": "Ramsey Strider",
+    "characterTitle": "The Traveling Author",
+    "photo": "/guests/thai.png",
+    "description": "From the icy tips of Antarctica to the heat of the Sahara, to the humidity of the Bahamas, Ramsey has been everywhere. His first travel books were bestsellers and put him on the map. But as he's ventured to more remote locations, his sales have suffered, much to the dismay of Cornelius.",
+    "background": "From the countryside, you’ve grown up with a thirst for adventure. You traveled domestically to all the large cities once you arrived in Big City. You met Armon when he was opening his restaurant, when you pitched him the idea of your books on travel. He connected you with Cornelius who's been backing your travels. You just got back from your latest tour around the world - now that you're more well known you’ve been seeing your friends around the globe. What a small world it is! You saw Olivia West and Victoria Locke in Europe, a military man named Lieutenant Smith in Northern Africa, and a Big University graduate named James in Asia. You’ve been wanting to push your exploration even further, and convince Cornelius to fund a trip up to the arctic, it will surely be an icy tourist spot in the future!",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Olivia's project will be announced soon",
+      "Harold Young committed arson to get ahead of his opposition",
+      "Raymond's movie is delayed because of an accident that happened on set",
+      "Quinn Gladwell's spotless record isn't just because he's a great lawyer, he's known to give bribes"
+    ],
+    "goals": [
+      "Pitch your new book concept to Cornelius and secure continued funding",
+      "Ask Brad Staff if he knows Lieutenant Smith in Northern Africa",
+      "Ask around if anyone at Big University knows James, the researcher in Asia you met on your travels",
+      "Talk to Olivia West about the second half of her European trip, did it inspire her next film?",
+      "Tell everyone how well traveled you are, and how many people you run into on your travels. You want to be known as the most well connected traveler out there."
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "Your financial backer for your career, hes who got you started. However, with your last two projects flopping, he is sure not to be pleased about your out-there ideas."
+      },
+      {
+        "guestId": "armon_robinson",
+        "description": "He introduced you to Cornelius, and has been a good friend since. You always talk about foreign cuisine, and you always make sure to eat at Armon's whenever you're in town."
+      },
+      {
+        "guestId": "olivia_west",
+        "description": "Her film, Peculiar Thoughts, brought out emotions you only thought you could achieve while traveling. You met her at a film festival in Europe, and have been wondering about her latest project."
+      },
+      {
+        "guestId": "victoria_locke",
+        "description": "You just met her in passing in Europe, she gave you some excellent recommendations on places to go in the Mediterranean. She would be a resources if you ever wanted to do a Mediterranean book."
+      }
+    ],
+    "props": [],
+    "password": "compass"
+  },
+  {
+    "id": "elmer_graves",
+    "playerName": "Thomas Farmer",
+    "characterName": "Elmer Graves",
+    "characterTitle": "The Cousin",
+    "photo": "/guests/farmer.png",
+    "description": "The cousin of Marvin, Elmer hasn't been seen in the upper social circles before — in fact, he hasn't been seen in any social circles before. Marvin is taking this enigma of a man under his wing to teach him finance it seems. Elmer is certainly a wild card, who seems to have his own ideas on how he could rise to the top.",
+    "background": "You and Marvin Graves have fathers that are brothers, but that doesn’t mean you are best friends. You grew up two hours north of Big City, so saw Marvin somewhat often. After your failures to find investors for your innovative ideas, you decided that you needed to move to the hub of science and opportunity, Big City. Your father gave you some money to move, as long as you said you would mentor under Marvin. You’ll play along with what Marvin says, but really now is the time to spread your wings. You’ve heard whispers that there’s a cure-all tonic that the doctor has. You could make something for yourself if you could get your hands on it.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Quinn Gladwell is set to lose Harold's case",
+      "Artemis Longfellow's research has no real world applications",
+      "Ramsey Strider didn't actually visit the places in his last book, that's why it failed"
+    ],
+    "goals": [
+      "Pitch your idea to Draven Norton again.",
+      "Get Harold Young's thoughts on upcoming industries.",
+      "Steal the cure-all from Dr. Terrance Kelley.",
+      "Talk about your inventions and ideas to anyone who will listen."
+    ],
+    "relationships": [
+      {
+        "guestId": "marvin_graves",
+        "description": "Your cousin and the reason you're in this room. He believes he is mentoring you, but the only thing useful he's done is connect you with Big City investors."
+      },
+      {
+        "guestId": "draven_norton",
+        "description": "You met him once at a scientific conference. You tried valiantly to pitch an idea, a tonic that grows women's fingernails, but you got interrupted and never got the chance to finish."
+      },
+      {
+        "guestId": "harold_young",
+        "description": "You have observed Harold from a distance at his warehouses to analyze his business. He once almost caught you rifling through his files, but you played it off. He has a calculating mind about him, and you actually worked to be where he is, unlike Marvin and Cornelius. Much more of your style of guy."
+      },
+      {
+        "guestId": "juniper_fairfield",
+        "description": "Your cousin's girlfriend. You don't know much about her work, but you do know she's a lot smarter than everyone gives her credit for. She's sure to bleed Marvin dry, it would serve him right."
+      }
+    ],
+    "props": [],
+    "password": "mercury"
+  },
+  {
+    "id": "brad_staff",
+    "playerName": "Luca Guiga",
+    "characterName": "Brad Staff",
+    "characterTitle": "The Admiral",
+    "photo": "/guests/luca.png",
+    "description": "Brad Staff has been a military man his entire life. He's shed blood in conflicts to get to his position as Admiral. Currently commanding troops against terrorists in Northern Africa, he's seen it all. He's back in the states to deal with the bureaucracy of the U.S. government, which he abhors.",
+    "background": "You grew up in Big City, but there was never a real place for you here. You were needed on that wall, defending American freedom. Joining the military, you survived through the wars in Asia and South America, taking a bullet for your country. You got awarded and rose through the ranks to the position of Admiral. This war in Africa is a showcase of strategic prowess, another chance to make your country proud. You’re supposedly back in the states to report and coordinate military moves. But that's not the truth: your troops got into a frenzy and a few civilian towns got caught in the crossfire. With pressure from bureaucrats to keep civilian casualties low, it’s best to come home to sweep this under the rug. This party is a chance to connect with influential people who can help you out.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Marvin only got with Juniper to be introduced to Cornelius",
+      "Marvin has been skimming money from Cornelius's accounts",
+      "Harold Young committed arson to get ahead of his opposition"
+    ],
+    "goals": [
+      "Ask Victoria Locke to help you sweep up your civilian death toll.",
+      "Check if Quinn Gladwell knows any military lawyers, your soldiers may need them",
+      "Experience a PTSD flashback",
+      "Make your drinks extra strong, you'll need it with what you're dealing with.",
+      "Complain about the higher up beuracrats to Armon.",
+      "Ask Terrance Kelley about delivering medical equipment to the warzone."
+    ],
+    "relationships": [
+      {
+        "guestId": "armon_robinson",
+        "description": "Armon's is your favorite restaurant in Big City. You always make sure to eat there whenever you're back in town. Armon is always good for a glass of whiskey and scorn for bureaucracy. You've been trying to get him to cater to you in Africa, but he's been hesitant to get involved in the war."
+      },
+      {
+        "guestId": "victoria_locke",
+        "description": "Victoria has been an old friend, ever since you were first stationed in the Mediterranean. As you've rose up the ranks together, a swapping of information and favors has always been beneficial to both of you. Her help is critical to the cover up of civilian casualties."
+      },
+      {
+        "guestId": "ramsey_strider",
+        "description": "A fellow lover of good food, Armon introduced you to Ramsey. He's got a good head about him, and is knowledgable about the state and security of the world."
+      },
+      {
+        "guestId": "terrance_kelley",
+        "description": "You ran into Terrance at the last party that Cornelius hosted. You only spoke briefly, but you have any that he may be able to help you procure medical equipment for your soldiers."
+      }
+    ],
+    "props": [],
+    "password": "dispatch"
+  },
+  {
+    "id": "raymond_hunt",
+    "playerName": "Tim Doan",
+    "characterName": "Raymond Hunt",
+    "characterTitle": "The Actor",
+    "photo": "/guests/tim.png",
+    "description": "Movie superstar Raymond Hunt shouldn't need an introduction. Mostly known for his character, Midnight Soldier, his action movies feature the craziest stunts the industry has seen. Though his latest work, Midnight Soldier: Full Moon, has been delayed - much to the public and studio’s dismay.",
+    "background": "Born on the west coast, you were destined for greatness since a baby, modeling for pictures for a formula company. You tried out the military for a minute, just to get practical experience. With this experience, he pitched executives into creating the Midnight Soldier series. It’s been wildly successful, as is everything you touch of course. The action is unlike anything anyone has seen, another reason to be proud. However, there is one minor setback. In your latest movie, one of the stunt-men tragically died in a motorcycle accident on set. Production has been delayed, but it's been kept under wraps. You’ve decided that a trip to Big City would do good in recentering yourself.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Olivia's project will be announced soon",
+      "Armon Robinson's restaurant has serious health code violations that a paid inspector has been overlooking",
+      "Victoria Locke is stalling peace talks on purpose",
+      "Quinn Gladwell's spotless record isn't just because he's a great lawyer, he's known to give bribes"
+    ],
+    "goals": [
+      "Find out if anyone has heard about the accident on your set.",
+      "Ask Quinn Gladwell if he is taking on any new clients, you could use some legal help right now.",
+      "Talk with Olivia West about her new project, a pivot to deeper roles sounds like a good move for you.",
+      "Ask everyone what they thought about your last movie, Midnight Soldier.",
+      "Use your signature catchphrase: JUST SOLDIER ON!"
+    ],
+    "relationships": [
+      {
+        "guestId": "olivia_west",
+        "description": "Being in the same industry, you are very familiar with Olivia's work. You have a lot of respect for her, and you think her next project is exciting. You hope to grow closer professionally and personally."
+      },
+      {
+        "guestId": "frank_wallace",
+        "description": "You met Frank once at a charity event. His work itself is decent, but the Big Times is like any tabloid, always looking for a scandal. He's a good connection to the media, maybe setting an interview to promote a serious pivot of your style is a good idea."
+      },
+      {
+        "guestId": "quinn_gladwell",
+        "description": "You've hired Quinn to help with in a defamation case against a local tabloid. He crushed the case, and you hope to keep him on retainer for any future legal issues. He's a good guy to know in the legal world."
+      }
+    ],
+    "props": [],
+    "password": "reel"
+  },
+  {
+    "id": "olivia_west",
+    "playerName": "Fiona Zhou",
+    "characterName": "Olivia West",
+    "characterTitle": "The Director",
+    "photo": "/guests/fiona.png",
+    "description": "It's all about artistry. Olivia West is putting out only the most thought-provoking pieces of media there is. After her last film, Peculiar Thoughts, almost won best picture, it's time for her magnum opus. She's gotten inspiration from Big City for her next project — a story that is so beautiful, so artistic, so profound, and so expensive.",
+    "background": "Not everyone gets nominated for best picture, you are one of a select few. You’ve worked hard to be here and prove that you have what it takes to be a director. You moved to Hollywood at a young age and were always behind the camera, working your way up from cinematography to directing. You spent the last year promoting your movie, Peculiar Thoughts, globally. From Europe to Asia to South America, you have been quite the traveler. Now that you are back in the states, it’s time to focus on your next project, which has been hyped up to be your masterpiece. But the masterpiece doesn’t exist. You’ll need another two years before the story is finished, only then can the process start. The anticipation is too much, it might be smart to find a distraction in the film world.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Harold Young committed arson to get ahead of his opposition",
+      "Juniper is cheating on Marvin with a police officer",
+      "Victoria Locke's peace negotiations have already collapsed in private, the public announcement is being delayed"
+    ],
+    "goals": [
+      "Find current news about the film industry, and what the next big thing is.",
+      "Ask Ramsey about the rest of his travels, maybe it will inspire your next project.",
+      "Ask Frank about his upcoming bombshell, maybe it will be a good distraction for the public when you need to keep them away from your next project.",
+      "Find out why Raymond's next movie is still delayed, encourage him to take his time.",
+      "Don't talk about your next project, you don't want to give anything away."
+    ],
+    "relationships": [
+      {
+        "guestId": "raymond_hunt",
+        "description": "Being in the same industry, you are very familiar with Raymond's work. His movies aren't really your style, slapstick action that is carried by his charm and looks. It would be intersting to see him in a more serious role, but that doesn't seem to be in the cards."
+      },
+      {
+        "guestId": "juniper_fairfield",
+        "description": "Juniper has always been a supporter of the arts, and specifically your work. She even helped fund one of your earlier projects, though it was never publicly acknowledged. She's sure to ask about your next project, best to deflect in that case."
+      },
+      {
+        "guestId": "ramsey_strider",
+        "description": "You met Ramsey on the film festival circuit in Europe. He's a well traveled guy, and you always have interesting conversations about far off thoughts and places. He seems to have a lot of interesting stories, maybe some of them will inspire your next project."
+      },
+      {
+        "guestId": "frank_wallace",
+        "description": "Relationships with the media is always complicated. Frank does authentic reporting, including an interview with you a few years back. He has a good reputation, but still, you can never be sure confiding in a journalist."
+      }
+    ],
+    "props": [],
+    "password": "canvas"
+  },
+  {
+    "id": "artemis_longfellow",
+    "playerName": "Max Sims",
+    "characterName": "Artemis Longfellow",
+    "characterTitle": "The Academic",
+    "photo": "/guests/max.png",
+    "description": "A graduate from Big University himself, Dr. Longfellow is now a tenured professor, teaching life sciences at Big University. He's published multiple books and is now involved in cutting-edge research on the human mind. Research that is funded by a trust in the Investor's name.",
+    "background": "Academia has always been your life, nothing else is important. Being a nerdy boy studying in the library evolved into a full time researcher in the lab. You went to Big University and double majored in Biology and Psychology. After your PHD at Big University, you became a professor, eventually earning tenure. You are focusing on research dealing with the human brain’s reaction to different psychedelic compounds. Cornelius funds this research through a trust, but he’s likely to pull it out now that his mind has changed. However, if he were to bite the dust, the trust keeps paying out - lives could be saved with your research! One of your graduate students, James, recently went to Asia for his studies. You asked him to bring back some plants there under the guise that they can be used in your research. However, you’ll use them tonight to poison Cornelius Duke.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Marvin only got with Juniper to be introduced to Cornelius",
+      "Marvin has been skimming money from Cornelius's accounts",
+      "Armon Robinson's restaurant has serious health code violations that a paid inspector has been overlooking",
+      "Brad Staff has been losing in the war but isn't reporting it"
+    ],
+    "goals": [
+      "Make a poisoned cocktail for Cornelius Duke with the vial you made from the plants you got from Asia. A rum and coke should do the trick.",
+      "Talk about your latest research and the impact it could have on the world.",
+      "Ask Dr. Terrance Kelley about the latest health trends, maybe you can incorporate them into your research.",
+      "Keep James' involvement under wraps, its best to deflect"
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "He's been your financial backer for your research for a while now, but he's going to be pulling back funding soon. You have to get him out of the way if you want to keep your research going."
+      },
+      {
+        "guestId": "terrance_kelley",
+        "description": "You met Dr. Kelley at a health conference, and you have been trying to get him involved in your research ever since. He's been hesitant to get involved, but he's a wealth of knowledge about the human body and health trends."
+      },
+      {
+        "guestId": "frank_wallace",
+        "description": "You are an arduent reader of Big Times, and Frank's articles are always the most interesting. You've made a point to meet him in the professional world, and you look forward to his large story thats upcoming."
+      },
+      {
+        "guestId": "draven_norton",
+        "description": "Another Big University alum, Draven got his doctorate in biology at the same time that you did. He always seemed to be very smart in class, but his company, Norton Solutions, has yet to produce any results in the real world."
+      }
+    ],
+    "props": [
+      "A vial of poison made from the plants you got from Asia. You plan to make Cornelius Duke a poisoned rum and coke."
+    ],
+    "password": "alchemy"
+  },
+  {
+    "id": "draven_norton",
+    "playerName": "Ashton Liu",
+    "characterName": "Draven Norton",
+    "characterTitle": "The Scientist",
+    "photo": "/guests/ashton.png",
+    "description": "Draven Norton graduated from Big University with a doctorate in biology. Since then, he's used Cornelius's money to start his own company, Norton Solutions. The company has been working on something quite big for a long time, though there have never been any public results.",
+    "background": "A native from Big City, you’ve always thought you were the one to push science to its brink. You sped through Big University with a doctorate in Biology. Since then you hooked Cornelius into investing in Norton Solutions. Everyone thinks it's a fraudulent company, with no results, but that couldn't be further from the truth. You’ve been researching a cure all for toxical ailments - any viruses, infections, diseases, poison, venom, etc. - could not harm those that keep taking the cure-all. Right now Cornelius is the only client of yours, and paying a hefty sum. You know he's not cutting your funding. At this stage, it's imperative that no one knows of the existence of the cure-all, you still need more time to patent and monopolize it.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Olivia's project will be announced soon",
+      "Marvin only got with Juniper to be introduced to Cornelius",
+      "Artemis Longfellow's research has no real world applications",
+      "Frank Wallace was offered money to kill a story last year and accepted",
+      "Ramsey Strider didn't actually visit the places in his last book, that's why it failed"
+    ],
+    "goals": [
+      "Deny any existance of a cure all. Don't discuss what Norton Solutions does at all.",
+      "Ask Artemis about his research and the state of Big University.",
+      "Find out why Raymond's next movie is still delayed, you've always been a big fan.",
+      "Confirm with Victoria that your trade in the mediterranean is still going through, you don't want to lose that connection."
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "Your financial backer who isn't going anywhere. He's your only client and is going to reap the success of your research with you."
+      },
+      {
+        "guestId": "artemis_longfellow",
+        "description": "An undergraduate and graduate school classmate. He's always been focused on books, and doesn't seem to have what it takes to be in the private sector. His work could be interesting depending on how he can apply it to the real world."
+      },
+      {
+        "guestId": "victoria_locke",
+        "description": "A powerful figure, Victoria is critical for your business. Many of your ingredients come from the Mediterranean, and Victoria is your main connection to that region. She's been a good contact to have, and you hope to keep that relationship going."
+      },
+      {
+        "guestId": "elmer_graves",
+        "description": "You met Elmer once at a scientific conference. He tried to pitch some crockpot idea to you, but made an excuse to leave before he could finish. Best to avoid his ideas."
+      }
+    ],
+    "props": [],
+    "password": "specimen"
+  },
+  {
+    "id": "Terrance_kelley",
+    "playerName": "Marc Romero",
+    "characterName": "Terrance Kelley",
+    "characterTitle": "The Doctor",
+    "photo": "/guests/marc.png",
+    "description": "Terrance Kelley comes from a long line of doctors. He became the family doctor when Cornelius's father was still young, making him a staple in the Duke household. As he's gotten older, his number of clientele has shrunk. He always keeps his wits about him so that he's prepared for anything.",
+    "background": "You grew up a little east of Big City, your parents always liked the countryside. You went to medical school overseas quite some time ago now. When you came back to take up the family practice, you felt like you wanted to be closer to clients, so you moved into Big City. You are well acclimated to the city and its social life.You’ve often been invited to these parties and don’t drink, you never know when a medical emergency will require you to keep your wits about you. As you’ve gotten into your older age, you’ve wanted to shrink down your client base. But this has caused unsubstantiated rumors - that you are receiving opium shipments from china that you are smoking! Those shipments are purely medication for patients, you would never use drugs yourself.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Olivia's project will be announced soon",
+      "Harold Young committed arson to get ahead of his opposition",
+      "Victoria Locke is stalling peace talks on purpose",
+      "Olivia West doesn't know what her next project will be"
+    ],
+    "goals": [
+      "Deny that you are receiving opium shipments from China, and that you are smoking them.",
+      "Be prepared to share your medical expertise if anyone has a question",
+      "Ask Harold Young about his new import business, maybe you can change suppliers for your medical practice to get a better deal.",
+      "Ask Artemis Longfellow about his research, its important to keep up to date on health research."
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "You've been the family doctor for three decades now, and you know Cornelius better than anyone else here. You've seen him at his best and worst, and you know how to handle him. He's been incredibly healthy these days, but you that doesnt mean he can skip his checkups."
+      },
+      {
+        "guestId": "artemis_longfellow",
+        "description": "You met him at a health conference, and he's been trying to get you involved in his research ever since. Research isn't your area of interest, but he's driven in his pursuits and you respect that."
+      },
+      {
+        "guestId": "harold_young",
+        "description": "Harold is a businessman through and through. He's very professional around you, and most talk alwasy leads back to his trading business. He's been helping you get medical equipment from South America."
+      },
+      {
+        "guestId": "brad_staff",
+        "description": "You met him at a previous event that Cornelius hosted. It's evident to you that the Admiral suffers from PTSD, and comes with it with heavy alcohal use. It's best to keep a watchful eye on him throughout the night."
+      }
+    ],
+    "props": [],
+    "password": "remedy"
+  },
+  {
+    "id": "frank_wallace",
+    "playerName": "Akshat Tiwari",
+    "characterName": "Frank Wallace",
+    "characterTitle": "The Journalist",
+    "photo": "/guests/akshat.png",
+    "description": "Frank lives by \"The pursuit of the Truth\", the words etched onto the Big Times Headquarters. Reporting on pressing issues such as politics, crime, and corruption — Frank Wallace is always looking for the next scoop. Back from photographing the war, he says he's about to publish a bombshell of a piece.",
+    "background": "You grew up in the capital, where you saw corruption in real time as bureaucrats got wealthier as your family struggled. You were taught honest work by your parents, and started selling newspapers at a young age. It’s never occurred to you to go into a different profession, you just worked your way up to a journalist. Your investigative skills are what you are mostly known for, you’ve uncovered many cases of corruption. Recently you decided to travel abroad to see the war in Northern Africa, to report on America’s progress. While you were there, you uncovered something terrible. American troops had razed multiple civilian towns. You wrote to your editor that you have a large story when you come back, so the air is buzzing with your large story. It’s critical to keep it under wraps for now, especially with The Admiral here tonight - who knows how he would react to that information.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Quinn Gladwell is set to lose Harold's case",
+      "Artemis Longfellow's research has no real world applications",
+      "Harold Young is already planning a hostile move on one of Cornelius's businesses the moment funding shifts",
+      "Brad Staff is coming back to the U.S. to hide war crimes committed my his troops"
+    ],
+    "goals": [
+      "Give minimal information about your upcoming story, but make it clear that it's a bombshell.",
+      "Ask Victoria Lcoke about the war in Northern Africa, see if you can get any information out of her that could be relevant to your story.",
+      "Ask Ramsey Strider about his travels, he could have interesting information or photographs that you could use",
+      "See if theres information about what Cornelius Duke is doing financially - getting a quote would be great for a story."
+    ],
+    "relationships": [
+      {
+        "guestId": "artemis_longfellow",
+        "description": "Artemis is your target audience for your articles. He's been enthusiastic about meeting you and your work, and even offered to take you to Armon's last time you saw him. He's a good connection to have in the academic world, and is a trustworthy source about the goings on at Big University."
+      },
+      {
+        "guestId": "raymond_hunt",
+        "description": "You saw Raymond at a charity event a few years back, and you got a few quotes out of him. He's a big name, so it was a good get for you. But it confirmed what you already thought - he's a bit of a dimwit. He's all charm and looks, but not much else is going on."
+      },
+      {
+        "guestId": "olivia_west",
+        "description": "Olivia is someone in the film industry that has it together. You interviewed her a few years back, and she had very insightful thoughts on the state and role of media and movies. Her next project is sure to be interesting, and you hope to get a quote from her about it when the time comes."
+      },
+      {
+        "guestId": "victoria_locke",
+        "description": "You met Victoria in the capital, when you were uncovering one of your first stories of a corrupt politician. Since then she's been feeding you insider information - mostly of her opponents - which has allowed you to uncover corruption everywhere. It doesn't matter if all the dirt is on her opponents, its always accurate and leads to a impactful story."
+      }
+    ],
+    "props": [],
+    "password": "headline"
+  },
+  {
+    "id": "armon_robinson",
+    "playerName": "Samintha Chandrasiri",
+    "characterName": "Armon Robinson",
+    "characterTitle": "The Chef",
+    "photo": "/guests/samintha.png",
+    "description": "The proud owner of Armon's, a one-star Michelin restaurant, Armon Robinson has exceedingly high standards for his kitchen. He's been pushing himself and crew to work towards that second star. He has been pouring his blood, sweat, and other people's money into this intense pursuit.",
+    "background": "Big City has always been home for you. From the way it smells like smoke to the way there’s always a drinking buddy no matter how late, this is your City. You originally worked as a salesman selling shoes, but that just didn’t cut it. Your place was as a chef, as a little drink and smoke during work couldn’t hurt after all. After scraping some funds, you went overseas to be trained. You came back and pitched Armon’s to Cornelius, who you met out one night. Since then, you’ve poured your life into that place - everything must be perfect. That one michelin star isn’t bad at all, but you can make it even higher. Armon’s has become a social hub for notable Big City residents, you’re more socially renowned than everyone here but Cornelius and Juniper.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Marvin only got with Juniper to be introduced to Cornelius",
+      "Marvin has been skimming money from Cornelius's accounts",
+      "Victoria Locke is stalling peace talks on purpose",
+      "Brad Staff has been losing in the war but isn't reporting it"
+    ],
+    "goals": [
+      "Pour someone a strong Drink, you want to be known for your cocktails as well as your food.",
+      "Ask Ramsey Strider about how his travels have been, he always has a good story to tell.",
+      "Ask Harold Young what he thinks business trends will be looking like, you want to be ahead of the curve for your restaurant.",
+      "Find out if Victoria Locke's peace talks are going well, the war in Africa is bad for recieving cheap goods."
+    ],
+    "relationships": [
+      {
+        "guestId": "cornelius_duke",
+        "description": "Cornelius is the primary backer for your restaurant, Armon's. He's happy that you've been doing well, but thinks you should prioritize profit versus a second star. He clearly does not understand you."
+      },
+      {
+        "guestId": "ramsey_strider",
+        "description": "You met Ramsey out in the city one night, and have been friends ever since. You introduced him to Cornelius, which led to his success as a traveling author. He always shows his support by coming to Armon's and sharing stories of his travels."
+      },
+      {
+        "guestId": "brad_staff",
+        "description": "Brad is another regular at Armon's, and thats how you met him. He likes to stay late for a bottle of whiskey and some shit talking of politicians. Recently he's been asking about catering to troops in Africa. It's of no interest to you, Armon's needs you here."
+      },
+      {
+        "guestId": "quinn_gladwell",
+        "description": "Quinn comes to Armon's often, its clear it is one of the few places that he feels comfortable about. You have a lot in common - such as growing up on the North side of the city - so have chatted about some deep topics."
+      }
+    ],
+    "props": [],
+    "password": "saffron"
+  },
+  {
+    "id": "harold_young",
+    "playerName": "Malcolm Seemann",
+    "characterName": "Harold Young",
+    "characterTitle": "The Industrialist",
+    "photo": "/guests/malcolm.png",
+    "description": "Harold Young is ruthless when it comes to his business opponents. He's ended up controlling most of Big City's port trading through strategic partnerships, robber baron practices, and a few unfortunate fires that happened to his competitors. He currently can't rival Cornelius Duke's wealth — but he isn't stopping here.",
+    "background": "Your father owned a small shipping company, when he handed it over to you, you accelerated growth. You partnered with other smaller companies at first, to squeeze out the big competition, before turning around to acquire your previous partners. Along the way, those big competitors suffered some unfortunate fires in their warehouses. There’s always been speculation that you had a hand in that, even though you didn’t. Still however, it’s good to let some rumors swirl to be a more feared business man. With control of most port trading, you can see what's trending and being shipped. You are accumulating funds to gear up to spread out your ventures into critical manufacturing. You’ll surpass the wealth of Cornelius Duke one day.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Draven Norton's research is a scam, he has nothing",
+      "Juniper is cheating on Marvin with a police officer",
+      "Olivia West doesn't know what her next project will be",
+      "Victoria Locke has been stalling the peace talks to hold onto power"
+    ],
+    "goals": [
+      "Ask Brad Staff about the war in Northern Africa, see if you can get any information on if trading through it is possible.",
+      "Ask Victoria Locke about her peace talks, the war is bad for business and you want to see it end.",
+      "Talk to Raymond Hunt about potentially doing a commercial for your company, it would be good for publicity.",
+      "Elmer Graves seems off, yet familiar. See if you can find out where you know him from"
+    ],
+    "relationships": [
+      {
+        "guestId": "victoria_locke",
+        "description": "With Victoria's influence in the Mediterranean, she's a critical contact for your trading business. You also thouroughly enjoy her company, as shes one of the few people that can understand your motivations and ambitions."
+      },
+      {
+        "guestId": "quinn_gladwell",
+        "description": "Your current lawyer, Quinn has been helping you with some legal cases that have come up. He's dealing with the mis-delivered shipment fiasco right now. You're sure he'll have it blow over and you'll be dining at Armon's in no time."
+      },
+      {
+        "guestId": "elmer_graves",
+        "description": "You're not quite sure where you've seen Elmer before, but you're sure that you have. Maybe somewhere in the trading business, but he doesn't seem like the type to forget."
+      }
+    ],
+    "props": [],
+    "password": "gavel"
+  },
+  {
+    "id": "victoria_locke",
+    "playerName": "Alyssa Escalante",
+    "characterName": "Victoria Locke",
+    "characterTitle": "The Ambassador",
+    "photo": "/guests/alyssa.png",
+    "description": "Victoria Locke does not come from a political background. From humble origins, she's worked her way up. Now an important ambassador to the Mediterranean region, she's in charge of massive flows of goods and money. Her power and importance are elevated as long as the current war is going on — which she is in talks to end.",
+    "background": "You grew up in the South, way out in the country. When you visited Big City, you thought you would hate it. It turns out that Big City, and the game of politics, is quite interesting to you. Starting out as a senator's assistant, your charm and connections catapulted your career. A few years before becoming ambassador, you were in a deadlock with a political opponent. By sneakily leaking information to the press, Frank Wallace, you were able to continue your rise to the top. Now as an ambassador, everyone is coming to you for key assurances about trade in our region, the Mediterranean. This war in Northern Africa has only increased your power and the favors that you are owed. Perhaps it’s time to end it however, as you are one of the parties in the peace talks - which are going nowhere.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Elmer hasn't been seen because he just got out of the looney bin",
+      "Olivia's project will be announced soon",
+      "Marvin has been skimming money from Cornelius's accounts",
+      "Armon Robinson's restaurant has serious health code violations that a paid inspector has been overlooking",
+      "Brad Staff is coming back to the U.S. to hide war crimes committed my his troops"
+    ],
+    "goals": [
+      "Ask Brad Staff for a front line perspective on the war in Northern Africa.",
+      "Check in on Harold Young, see if his business is doing well",
+      "Ask Armon Robinson if he would consider opening a restaraunt in the mediterraen, so you can always eat at his place",
+      "Connect with Juniper Fairfield, ask her what she knows about the guests here tonight",
+      "Assure anyone who asks that peace talks are going well"
+    ],
+    "relationships": [
+      {
+        "guestId": "harold_young",
+        "description": "Harold started off as simply a business relationship, you helping his trading business, him supporting your agendas. However its become more, its clear you two are quite close personally as well."
+      },
+      {
+        "guestId": "draven_norton",
+        "description": "Unlike Harold, Draven Norton is only a business partner. His neccessity for a degree of secrecy so high its unobtainable is constantly annoying. If he wasn't paying that much for obscure medical materials, you would've stopped doing business with him. Still, a reliable flow of cash."
+      },
+      {
+        "guestId": "frank_wallace",
+        "description": "You met Frank when he was reporting on a corrupt politician in the capital. By feeding Frank information, you've been able to eliminate opponents and lead to his status as a notable jounralist. It's an excellent partnership that's benifitted you both."
+      },
+      {
+        "guestId": "ramsey_strider",
+        "description": "You just met him when you were dealing with extradition issues in southern Europe. He was doing his neat world tour, saying he was going to Asia and Northern Africa. Why a tourist like Ramsey would go to Northern Africa is beyond you, he seems to have his own ideas about the world."
+      }
+    ],
+    "props": [],
+    "password": "treaty"
+  },
+  {
+    "id": "quinn_gladwell",
+    "playerName": "Raj Nadkarni",
+    "characterName": "Quinn Gladwell",
+    "characterTitle": "The Attorney",
+    "photo": "/guests/raj.png",
+    "description": "Quinn Gladwell practices business law and hasn't lost a case in three years. Only the wealthiest Big City residents can afford his retainer, but they don't regret it. However, with a difficult case against his client Harold Young, we could be seeing an end to his winning streak.",
+    "background": "Your first and only job has been a lawyer. Your father sent you overseas to attend law school, then come back to work at the family practice. However, you’ve transformed a small firm into the most notable one Big City. You’ve been unstoppable for years, mostly through careful case selection, but also due to hard legal work, and the occasional quid pro quo with a judge or jury member. You’ve been on quite the win streak recently, which leads to better clientele, which leads to more money and an easier time winning cases. This latest case however, is quite tricky. Harold Young’s ship got caught sending materials to America’s enemy in the war. Critical documents are missing which would show that the ship’s destination was a different one, and this judge is not one that can be dealt with under the table. This could be the end of your winning streak, unless you are able to pull something unexpected out.",
+    "gossip": [
+      "Cornelius Duke is going to pull funding from all his projects",
+      "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
+      "Olivia's project will be announced soon",
+      "Harold Young committed arson to get ahead of his opposition",
+      "Raymond's movie is delayed because of an accident that happened on set",
+      "Frank Wallace was offered money to kill a story last year and accepted"
+    ],
+    "goals": [
+      "Stay confidential about the upcoming case with Harold Young.",
+      "Draven Norton's company might get sued for being fraudulent, ask him if he needs a lawyer.",
+      "Ask Marvin Graves what investments he believes are wise currently.",
+      "Check in with Harold Young and how he feels about the case, he doesn't seem to be concerned enough."
+    ],
+    "relationships": [
+      {
+        "guestId": "harold_young",
+        "description": "Harold is very business like, you have a professional relationship, as your currently representing him in his latest case against the U.S. government."
+      },
+      {
+        "guestId": "raymond_hunt",
+        "description": "You once represented Raymond in a libel case against a tabloid. It was an easy case to win, and he was sufficiently impressed. Unlike your attitude with his movies, but no need to tell him that."
+      },
+      {
+        "guestId": "armon_robinson",
+        "description": "The one place out you can really unwind is Armon's. You've grown close with Armon, not just because your a regular, but because you both grew up on the north side of the city, and share a lot in common."
+      }
+    ],
+    "props": [],
+    "password": "verdict"
+  }
+]
