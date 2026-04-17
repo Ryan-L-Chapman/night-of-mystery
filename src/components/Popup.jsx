@@ -42,18 +42,15 @@ export default function Popup({ onDismiss }) {
 
         <div className="popup-body">
           <p>
-            Hey there, my friend. I am so excited for this Night of Mystery! Friends from 
-            all points of my life are coming, so hopefully its fun to meet new people!
-            I anticipate it will be an interesting and new experience - so enjoy!
+            Hey there, my friend. I am so excited for this Night of Mystery! Please read this
+            entire pop up.
           </p>
           <p>
-            I have created a custom character for every guest - these characters have 
-            their own backstories, relationships, and agendas. Click on the profile with your name in 
-            the top right, then enter your first name. IMPORTANT: Click on only your profile! The only 
-            information you get about the other guests is what is shared in your profile, and what is on 
-            the guest list. You do not have to read the whole guest list if don't want to, but I recommend 
-            you read atleast the description of those you have relationships with. Please familiarize 
-            yourself with your character&#x2019;s information, use it to guide yourself, but feel free to 
+            Everyone has custom characters - click on the profile with your name in 
+            the top right, then enter the password I gave you. You do not have to read the whole guest list if 
+            don't want to, but I recommend 
+            you read atleast the description of those you have relationships with. Use your charcter's info  
+            to guide yourself, but feel free to 
             improvise and add on, it&#x2019;s you after all!
           </p>
           <p>
