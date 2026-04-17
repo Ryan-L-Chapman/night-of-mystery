@@ -64,7 +64,7 @@ export default function Popup({ onDismiss }) {
             party to cut ties with his investments?
           </p>
           <p>
-            Everyone has thier own motives and secrets -  and don't believe every rumor you hear.
+            Everyone has their own motives and secrets -  and don't believe every rumor you hear.
             With a high tension night ahead, keep your eyes peeled, every detail may matter.
           </p>
         </div>
