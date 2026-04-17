@@ -33,7 +33,7 @@
       }
     ],
     "props": [],
-    "password": "advisor"
+    "password": "dead"
   },
   {
     "id": "cornelius_duke",
@@ -88,7 +88,7 @@
       }
     ],
     "props": [],
-    "password": "empire"
+    "password": "money"
   },
   {
     "id": "juniper_fairfield",
@@ -134,7 +134,7 @@
     "props": [
       "A blackmail letter - threatening Marvin Graves with exposure unless he pays you."
     ],
-    "password": "magnolia"
+    "password": "daffodil"
   },
   {
     "id": "ramsey_strider",
@@ -178,7 +178,7 @@
       }
     ],
     "props": [],
-    "password": "compass"
+    "password": "cruise"
   },
   {
     "id": "elmer_graves",
@@ -221,7 +221,7 @@
       }
     ],
     "props": [],
-    "password": "mercury"
+    "password": "unique"
   },
   {
     "id": "brad_staff",
@@ -266,7 +266,7 @@
       }
     ],
     "props": [],
-    "password": "dispatch"
+    "password": "fight"
   },
   {
     "id": "raymond_hunt",
@@ -306,7 +306,7 @@
       }
     ],
     "props": [],
-    "password": "reel"
+    "password": "hollywood"
   },
   {
     "id": "olivia_west",
@@ -350,7 +350,7 @@
       }
     ],
     "props": [],
-    "password": "canvas"
+    "password": "artist"
   },
   {
     "id": "artemis_longfellow",
@@ -396,7 +396,7 @@
     "props": [
       "A vial of poison made from the plants you got from Asia. You plan to make Cornelius Duke a poisoned rum and coke."
     ],
-    "password": "alchemy"
+    "password": "verbose"
   },
   {
     "id": "draven_norton",
@@ -440,7 +440,7 @@
       }
     ],
     "props": [],
-    "password": "specimen"
+    "password": "secret"
   },
   {
     "id": "Terrance_kelley",
@@ -483,7 +483,7 @@
       }
     ],
     "props": [],
-    "password": "remedy"
+    "password": "tonic"
   },
   {
     "id": "frank_wallace",
@@ -527,7 +527,7 @@
       }
     ],
     "props": [],
-    "password": "headline"
+    "password": "truth"
   },
   {
     "id": "armon_robinson",
@@ -571,7 +571,7 @@
       }
     ],
     "props": [],
-    "password": "saffron"
+    "password": "potatoes"
   },
   {
     "id": "harold_young",
@@ -610,7 +610,7 @@
       }
     ],
     "props": [],
-    "password": "gavel"
+    "password": "rival"
   },
   {
     "id": "victoria_locke",
@@ -654,7 +654,7 @@
       }
     ],
     "props": [],
-    "password": "treaty"
+    "password": "power"
   },
   {
     "id": "quinn_gladwell",
