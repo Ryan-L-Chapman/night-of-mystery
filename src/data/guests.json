@@ -6,7 +6,7 @@
     "characterTitle": "The Advisor",
     "photo": "/guests/ryan.png",
     "description": "Marvin graduated from Big University studying economics. He's had a boring life in finance, out of the limelight. That is, until recently. He's been going out with Juniper Fairfield and has become close with Cornelius. Replacing his old advisor, it's clear that Marvin has changed how Cornelius thinks about his wealth.",
-    "background": "",
+    "background": "Marvin graduated from Big University studying economics. He's had a boring life in finance, out of the limelight. That is, until recently. He's been going out with Juniper Fairfield and has become close with Cornelius. Replacing his old advisor, it's clear that Marvin has changed how Cornelius thinks about his wealth.",
     "gossip": [
       "Cornelius Duke is going to pull funding from all his projects",
       "Terrance Kelley is addicted to opium from China, which is why he's losing patients",
@@ -17,7 +17,7 @@
       "Harold Young has been selling weapons to America's enemies in the war"
     ],
     "goals": [
-      "",
+      "Die an horrific Death from Poison",
       "Mix a drink for Harold Young"
     ],
     "relationships": [
